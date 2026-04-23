@@ -342,6 +342,14 @@
             overflow: hidden;
         }
 
+        .profile-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            position: relative;
+            z-index: 2;
+        }
+
         .about-image-frame::before {
             content: '';
             position: absolute;
@@ -765,9 +773,7 @@
             <div class="about-grid">
                 <div class="about-image reveal">
                     <div class="about-image-frame">
-                        
-                        <img src="portfolio/omara1.jpeg" alt="Omara Emmanuel" class="profile-img">
-                    
+                        <img src="omara1.jpeg" alt="Omara Emmanuel" class="profile-img">
                     </div>
                 </div>
                 <div class="reveal" style="transition-delay: 0.2s;">
